@@ -1,0 +1,10 @@
+@use "./partials/variable" as *;
+
+@import "bootstrap/scss/bootstrap.scss";
+
+// Supports weights 300-900
+@import "@fontsource-variable/rubik";
+
+body {
+  font-family: "Rubik Variable", sans-serif;
+}
