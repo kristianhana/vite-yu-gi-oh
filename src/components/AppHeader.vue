@@ -5,11 +5,19 @@ export default {
 </script>
 
 <template>
-   <header>
-    <h1>Yu-Gi-Oh Api</h1>
-   </header>
+    <header>
+        <img class="logo ms-3" src="../assets/img/pngegg.png" alt="">
+        <h1 class="ms-4">Yu-Gi-Oh Api</h1>
+    </header>
 </template>
 
 <style lang="scss" scoped>
-
+header {
+    display: flex;
+    align-items: center;
+    .logo {
+        width: 7%;
+        display: inline-block;
+    }
+}
 </style>
