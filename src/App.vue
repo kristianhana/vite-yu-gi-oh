@@ -10,12 +10,14 @@ export default {
     return {
       store
     }
-  }
+  },
+  components: { AppHeader, AppCardList},
 }
-components: { AppHeader, AppCardList};
 </script>
 
 <template>
+  <AppHeader/>
+  <AppCardsList/>
 </template>
 
 <style lang="scss">
