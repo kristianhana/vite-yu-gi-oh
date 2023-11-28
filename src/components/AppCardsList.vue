@@ -16,17 +16,6 @@ export default {
 </script>
 
 <template>
-
-    <div class="input-group mb-3 mt-3 container-sm">
-        <select class="form-select" id="inputGroupSelect02">
-            <option selected>Choose...</option>
-            <option value="1">Alien</option>
-            <option value="2">Ally of Justice</option>
-            <option value="3">Ancient Gear</option>
-        </select>
-        <label class="input-group-text" for="inputGroupSelect02">Options</label>
-    </div>
-    
     <div class="container">
 
         <AppLoader v-if="store.loading"/>

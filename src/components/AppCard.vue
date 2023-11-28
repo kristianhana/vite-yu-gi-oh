@@ -11,7 +11,7 @@ export default {
         <img class="card-img-top" :src="cardsInfo.card_images[0].image_url_small" alt="">
         <div class="card-body text-center">
             <h5 class="card-title">{{ cardsInfo.name }}</h5>
-            <p class="card-text">{{ cardsInfo.archetype ? cardsInfo.archetype : "Nessun archetipo" }}</p>
+            <p class="card-text">{{ cardsInfo.archetype ? cardsInfo.archetype : "No archetype" }}</p>
         </div>
     </div>
 </template>
