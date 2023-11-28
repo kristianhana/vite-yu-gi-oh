@@ -11,10 +11,9 @@ export default {
       store
     } 
   },
-  activeIndex: 0,
   created() {
     axios.get(this.store.apiUrl).then((resp) => {
-      this.store.cards = resp.data.data[this.activeIndex];
+      this.store.cards = resp.data.data;
       console.log(resp);
     });
   },

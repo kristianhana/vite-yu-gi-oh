@@ -1,22 +1,22 @@
 <script>
 export default {
     props: {
-        cardsInfo: Array,
+        cardsInfo: Object,
     },
-    index: 0,
 };
 </script>
 
 <template>
     <main>
-        <div>
-            <img :src="cardsInfo.data.data[index].card_images[index].image_url" alt="">
-            <p>{{ cardsInfo.data.data[index].archetype }}</p>
+        <div class="card h-100">
+            <img class="card-img-top" :src="cardsInfo.card_images[0].image_url_small" alt="">
+            <div class="card-body text-center">
+                <h5 class="card-title">{{ cardsInfo.name }}</h5>
+                <p class="card-text">{{ cardsInfo.archetype ? cardsInfo.archetype : "Nessun archetipo" }}</p>
+            </div>
         </div>
     </main>
 </template>
 
-<style lang="scss" scoped>
-
-</style>
+<style lang="scss" scoped></style>
 

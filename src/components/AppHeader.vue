@@ -15,6 +15,8 @@ export default {
 header {
     display: flex;
     align-items: center;
+    height: 80px;
+    background-color: white;
     .logo {
         width: 7%;
         display: inline-block;
