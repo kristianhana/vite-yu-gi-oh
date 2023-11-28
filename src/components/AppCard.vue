@@ -7,16 +7,18 @@ export default {
 </script>
 
 <template>
-    <main>
-        <div class="card h-100">
-            <img class="card-img-top" :src="cardsInfo.card_images[0].image_url_small" alt="">
-            <div class="card-body text-center">
-                <h5 class="card-title">{{ cardsInfo.name }}</h5>
-                <p class="card-text">{{ cardsInfo.archetype ? cardsInfo.archetype : "Nessun archetipo" }}</p>
-            </div>
+    <div class="card h-100">
+        <img class="card-img-top" :src="cardsInfo.card_images[0].image_url_small" alt="">
+        <div class="card-body text-center">
+            <h5 class="card-title">{{ cardsInfo.name }}</h5>
+            <p class="card-text">{{ cardsInfo.archetype ? cardsInfo.archetype : "Nessun archetipo" }}</p>
         </div>
-    </main>
+    </div>
 </template>
 
-<style lang="scss" scoped></style>
+<style lang="scss" scoped>
+.card {
+    background-color: hsl(33.46deg 64.46% 52.55%);
+}
+</style>
 
