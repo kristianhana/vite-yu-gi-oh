@@ -29,6 +29,8 @@ export default {
     
     <div class="container">
 
+        <AppLoader v-if="store.loading"/>
+
         <h5 class="badge text-bg-dark p-3 d-flex">FOUND number CARDS</h5>
 
         <div class="row row-cols-5 g-4 p-3">
