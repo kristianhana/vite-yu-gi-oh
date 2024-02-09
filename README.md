@@ -46,6 +46,10 @@ https://db.ygoprodeck.com/api-guide-v2/
 
 <p align="right">(<a href="#about-the-project">back to top</a>)</p>
 
+### Built With
+* [![Vue][Vue.js]][Vue-url]
+* [![Bootstrap][Bootstrap.com]][Bootstrap-url]
+
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
